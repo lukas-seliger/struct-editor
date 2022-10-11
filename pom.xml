@@ -16,9 +16,14 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>cz.seli</groupId>
-      <artifactId>configurator</artifactId>
-      <version>1.0</version>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-controls</artifactId>
+      <version>13</version>
+    </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>13</version>
     </dependency>
   </dependencies>
   <build>
@@ -34,9 +39,9 @@
         <artifactId>maven-resources-plugin</artifactId>
         <version>3.2.0</version>
         <configuration>
-            <encoding>UTF-8</encoding>
+          <encoding>UTF-8</encoding>
         </configuration>
-    </plugin>
+      </plugin>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
