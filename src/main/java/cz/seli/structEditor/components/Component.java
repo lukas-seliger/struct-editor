@@ -2,7 +2,7 @@ package cz.seli.structEditor.components;
 
 import java.io.IOException;
 
-import cz.seli.structEditor.app.FunctionContext;
+import cz.seli.structEditor.context.FunctionContext;
 
 public interface Component 
 {
